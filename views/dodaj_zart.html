@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add Joke - Joke Central</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <object
+        type="text/html"
+        data="../particles/navbar.html"
+        class="navbar"
+      ></object>
+    </header>
+
+    <main>
+      <!-- Form to add a new joke -->
+      <h1>Add a Joke</h1>
+      <form id="addJokeForm">
+        <div>
+          <label for="jokeText">Joke Text</label>
+          <textarea id="jokeText" name="jokeText" rows="4" required></textarea>
+        </div>
+        <div>
+          <label for="author">Author</label>
+          <input type="text" id="author" name="author" required />
+        </div>
+        <div>
+          <input type="submit" value="Submit Joke" />
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <!-- Footer content -->
+      <p>&copy; 2023 Joke Central. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="/js/main.js"></script>
+  </body>
+</html>

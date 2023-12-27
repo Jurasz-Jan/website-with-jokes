@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Joke Details - Joke Central</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Navigation bar -->
+      <% include ./partials/navbar %>
+    </header>
+
+    <main>
+      <!-- Display joke details -->
+      <h1>Joke Details</h1>
+      <div id="jokeDetails">
+        <p>
+          <strong>Joke:</strong> Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit.
+        </p>
+        <p><strong>Author:</strong> John Doe</p>
+      </div>
+
+      <!-- Interaction options -->
+      <div>
+        <button id="likeButton">Like</button>
+        <button id="dislikeButton">Dislike</button>
+        <button id="reportButton">Report Joke</button>
+      </div>
+
+      <!-- Comments section -->
+      <div id="commentsSection">
+        <h2>Comments</h2>
+        <!-- Display comments related to the joke -->
+        <!-- ... -->
+      </div>
+
+      <!-- Form to add a comment -->
+      <form id="addCommentForm">
+        <div>
+          <label for="commentText">Add a Comment</label>
+          <textarea
+            id="commentText"
+            name="commentText"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <div>
+          <label for="commenterName">Your Name</label>
+          <input type="text" id="commenterName" name="commenterName" required />
+        </div>
+        <div>
+          <input type="submit" value="Post Comment" />
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <!-- Footer content -->
+      <p>&copy; 2023 Joke Central. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="/js/main.js"></script>
+  </body>
+</html>

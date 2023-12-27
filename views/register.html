@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      charset="UTF-8"
+      name="”viewport”"
+      content="”width"
+      ="device-width,"
+      initial-scale="1″"
+    />
+    <title>Register - Joke Central</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Navigation bar -->
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/dodaj_zart.html">Add Joke</a></li>
+          <li><a href="/login.html">Login</a></li>
+          <li><a href="/moje_konto.html">My Account</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Registration form -->
+      <h1>Register at Joke Central</h1>
+      <form id="registerForm">
+        <div>
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div>
+          <input type="submit" value="Register" />
+        </div>
+      </form>
+      <p>Already have an account? <a href="/login.html">Login here</a></p>
+    </main>
+
+    <footer>
+      <!-- Footer content -->
+      <p>&copy; 2023 Joke Central. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="/js/main.js"></script>
+  </body>
+</html>

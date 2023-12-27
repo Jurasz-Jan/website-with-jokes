@@ -1,0 +1,58 @@
+/* Resetting default margins and paddings */
+body,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles for the body */
+body {
+  font-family: 'Comic Sans MS', Courier, monospace, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Styling the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Navigation bar styles */
+#navlist ul {
+  list-style-type: none;
+}
+
+#navlist ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#navlist ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#navlist ul li a:hover {
+  color: #ddd;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
