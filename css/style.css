@@ -7,15 +7,13 @@ ul {
   padding: 0;
 }
 
-/* Basic styles for the body */
 body {
-  font-family: 'Comic Sans MS', Courier, monospace, sans-serif;
+  font-family: 'Helvetica', Courier, monospace, sans-serif;
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
 }
 
-/* Styling the header */
 header {
   background-color: #333;
   color: #fff;
@@ -44,13 +42,13 @@ header {
 }
 
 /* Main content styles */
-main {
+.main {
   padding: 20px;
   text-align: center;
 }
 
 /* Footer styles */
-footer {
+.footer {
   background-color: #333;
   color: #fff;
   text-align: center;

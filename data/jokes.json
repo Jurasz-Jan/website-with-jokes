@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "joke": "Why don't skeletons fight each other?",
+      "answer": "They don't have the guts.",
+      "likes": 2
+    },
+    {
+      "id": 2,
+      "joke": "What do you call a bear with no teeth?",
+      "answer": "A gummy bear.",
+      "likes": 2
+    },
+    {
+      "id": 3,
+      "joke": "Why did the scarecrow win an award?",
+      "answer": "Because he was outstanding in his field.",
+      "likes": 23
+    }
+]
