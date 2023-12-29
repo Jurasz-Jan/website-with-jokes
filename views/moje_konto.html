@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>My Account - Joke Central</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
@@ -23,7 +27,7 @@
           </div>
           <div>
             <input type="submit" value="Change Email" />
-            <p id="emailMessage" style="display: none"></p>
+            <p id="emailMessage"></p>
           </div>
         </form>
       </section>
@@ -64,9 +68,9 @@
 
     <!-- JavaScript -->
     <script src="../js/main.js"></script>
-    <script>  
+    <script>
       //Javascript code to handle changeEmailForm
-       document
+      document
         .getElementById('changeEmailForm')
         .addEventListener('submit', function (e) {
           e.preventDefault()

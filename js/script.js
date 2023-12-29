@@ -27,4 +27,4 @@ document.addEventListener('DOMContentLoaded', function () {
       console.log('Error fetching jokes:', error)
     })
 })
-x   
+x
