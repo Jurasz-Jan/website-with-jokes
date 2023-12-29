@@ -63,10 +63,10 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="/js/main.js"></script>
-    <script>
-      // Przykładowy kod JavaScript do obsługi formularzy zmiany emaila i hasła
-      document
+    <script src="../js/main.js"></script>
+    <script>  
+      //Javascript code to handle changeEmailForm
+       document
         .getElementById('changeEmailForm')
         .addEventListener('submit', function (e) {
           e.preventDefault()
@@ -81,7 +81,7 @@
           e.preventDefault()
           // Tutaj kod do obsługi zmiany hasła
           // Pobranie wartości z pól input z id="currentPassword" i id="newPassword": document.getElementById('currentPassword').value, document.getElementById('newPassword').value
-          // Wysłanie żądania do serwera w celu zmiany hasła
+          // "Wysłanie żądania do serwera" w celu zmiany hasła
           // Wyświetlenie komunikatu o sukcesie lub błędzie
           document.getElementById('passwordMessage').textContent =
             'Password changed successfully!'
