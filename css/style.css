@@ -1,56 +1,216 @@
-/* Resetting default margins and paddings */
-body,
-h1,
-p,
-ul {
+
+* {
   margin: 0;
   padding: 0;
+  border: none;
+  outline: none;
+  font-family: Arial, sans-serif;
+  list-style: none;
+  box-sizing: border-box; 
 }
 
-body {
-  font-family: 'Helvetica', Courier, monospace, sans-serif;
-  background-color: #f4f4f4;
+html, body {
+  width: 100%;
+  min-height: 100%;
+  background-color: #f5f5f5;
+  font-size: 16px;
+  line-height: 1.5;
   color: #333;
-  line-height: 1.6;
 }
 
+/* Header and navigation */
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
+  background-color: #007bff;
+  color: white;
+  padding: 1% 0;
   text-align: center;
 }
 
-/* Navigation bar styles */
-#navlist ul {
-  list-style-type: none;
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #007bff;
+  padding: 1% 0;
 }
 
-#navlist ul li {
-  display: inline;
-  margin-right: 20px;
+nav li {
+  margin: 0 2%;
 }
 
-#navlist ul li a {
-  color: #fff;
+nav a {
   text-decoration: none;
+  color: white;
   font-weight: bold;
 }
 
-#navlist ul li a:hover {
-  color: #ddd;
+/* Main content */
+main {
+  padding: 2%;
+  max-width: 80%;
+  margin: 2% auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
-/* Main content styles */
-.main {
-  padding: 20px;
+/* Jokes list */
+.jokes-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+/* Container for the individual joke parts */
+.joke {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 2%;
+}
+
+/* Top part of the joke containing left, main, and right elements */
+.joke-top {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+}
+
+.leftJoke {
+  align-self: flex-start; 
+}
+
+.mainJoke {
+  align-self: center; 
+  flex-grow: 1; 
+}
+
+.rightJoke {
+  align-self: flex-end;
+}
+
+/* Bottom part of the joke, including interaction buttons */
+.bottomJoke {
+  width: 100%; 
+  margin-top: 1%; 
+  display: flex;
+  justify-content: center; 
+  padding-top: 1%;
+  border-top: 1px solid #ccc; 
+  
+}
+
+.joke img {
+  width: 8%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 1%;
+}
+
+.joke p {
+  flex: 1;
+}
+
+.joke .interaction-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.interaction-button {
+  font-size: 1.25rem;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
   text-align: center;
-}
-
-/* Footer styles */
-.footer {
+  padding: 1% 0;
   background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
+
+/* Forms and input fields */
+form {
+  width: 90%; 
+  max-width: 400px;
+  padding: 2%;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+textarea {
+  width: 100%;
+  padding: 1%;
+  margin: 2% 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button enhancements */
+input[type="submit"],
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 1%;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Accessibility focus styles */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid #0056b3;
+  outline-offset: 2px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  main,
+  form {
+    width: 95%;
+  }
+
+  .joke img {
+    width: 16%; 
+  }
+
+  .joke-top {
+    flex-direction: column; 
+  }
+
+  .leftJoke,
+  .mainJoke,
+  .rightJoke {
+    align-self: center; 
+    margin-bottom: 1%; 
+  }
+}
+
+.picture{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; 
+  }
+  
