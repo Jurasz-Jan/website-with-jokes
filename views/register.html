@@ -9,46 +9,57 @@
     />
     <title>Register - Joke Central</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <header>
       <!-- Navigation bar -->
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./login.html">Login</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Joke Central</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="./index.html">Home</a>
+            <a class="nav-item nav-link" href="./login.html">Login</a>
+          </div>
+        </div>
       </nav>
+      
     </header>
 
-    <main>
+    <main class="">
       <!-- Registration form -->
       <h1>Register at Joke Central</h1>
+      
       <form id="registerForm">
-        <div>
+        <div class="form-group">
           <label for="fullname">Full Name</label>
           <input type="text" id="fullname" name="fullname" required />
         </div>
-        <div>
+        <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
+          <input type="email" class="form-control" id="email" name="email" required />
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
-        <div>
+        <div class="form-group">
           <label for="username">Username</label>
           <input type="text" id="username" name="username" required />
         </div>
-        <div>
+        <div class="form-group">
           <label for="password">Password</label>
           <input type="password" id="password" name="password" required />
         </div>
         <div>
-          <input type="submit" value="Register" />
+          <button type="button" class="btn btn-primary">Register</button>
         </div>
       </form>
+    
       <p>Already have an account? <a href="/login.html">Login here</a></p>
     </main>
 
-    <footer>
+    <footer >
       <!-- Footer content -->
       <p>&copy; 2023 Joke Central. All rights reserved.</p>
     </footer>

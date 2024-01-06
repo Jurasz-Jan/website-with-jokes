@@ -19,7 +19,7 @@ html, body {
 }
 
 /* Header and navigation */
-header {
+/* header {
   background-color: #007bff;
   color: white;
   padding: 1% 0;
@@ -35,7 +35,7 @@ nav ul {
 
 nav li {
   margin: 0 2%;
-}
+} */
 
 nav a {
   text-decoration: none;
@@ -210,7 +210,7 @@ textarea:focus {
 
 .picture{
     border-radius: 50%;
-    width: 100px;
-    height: 100px; 
+    width: 150px;
+    height: 150px;  
   }
   
