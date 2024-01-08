@@ -1,3 +1,13 @@
+// Open the popup
+function openPopup() {
+  document.getElementById('popup').style.display = 'block';
+}
+
+// Close the popup
+function closePopup() {
+  document.getElementById('popup').style.display = 'none';
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   const jokesContainer = document.getElementById('jokesContainer')
 
@@ -27,4 +37,14 @@ document.addEventListener('DOMContentLoaded', function () {
       console.log('Error fetching jokes:', error)
     })
 })
-x
+
+// Attach click event to trigger the popup
+document.getElementById('uglyFace1').addEventListener('click', openPopup);
+
+// Follow page scroll
+// window.onscroll = function () {
+//   var popup = document.getElementById('popup');
+//   if (popup.style.display === 'block') {
+//       popup.style.top = window.pageYOffset + window.innerHeight / 2 + 'px';
+//   }
+// };
