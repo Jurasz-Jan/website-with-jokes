@@ -74,6 +74,8 @@ main {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-top:1%;
+  padding-left: 1%;
 }
 
 .leftJoke {
@@ -87,6 +89,7 @@ main {
 
 .rightJoke {
   align-self: flex-end;
+  padding-right: 1%;
 }
 
 /* Bottom part of the joke, including interaction buttons */
@@ -96,7 +99,6 @@ main {
   display: flex;
   justify-content: center;
   padding-top: 1%;
-  border-top: 1px solid #ccc;
 }
 
 .joke img {
@@ -145,7 +147,7 @@ footer {
 }
 
 /* Forms and input fields */
-form {
+.mainForm {
   width: 90%;
   max-width: 400px;
   padding: 2%;
@@ -266,4 +268,79 @@ textarea:focus {
   padding: 0px;
   font-size: 30px;
   cursor: pointer;
+}
+
+.card {
+  margin-bottom: 3%;
+}
+
+.plus-minus-container {
+  display: flex;
+  padding-right:1%;
+  margin-right: 1%;
+}
+
+.plus-minus-button {
+  padding-right:10%;
+}
+
+.plus-minus-button img{
+  height: 30px;
+  width: 30px;
+}
+
+.comment-modal {
+  display: block;
+}
+
+.comment-container {
+  display: none;
+}
+
+.comment-entry {
+  padding-left: 1%;
+}
+
+.comment-top {
+  height: 5%;
+  width: 100%;
+  
+}
+.comment-top label {
+  width: 100%;
+}
+
+.comment-picture {
+  height: 30px; /*to nie powinno byc tak niby ale chuj*/
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 1%;
+}
+
+.addCommentForm {
+  padding: 2%;
+  margin: auto;
+  box-shadow: none;
+  resize: none;
+}
+
+.add-comment-button{
+  padding: 2%;
+  box-shadow: none;
+  max-width: 20%;
+}
+
+#upvote {
+  cursor: pointer;
+}
+
+#downvote {
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: red; /* Twój wybrany kolor tła */
+  /* Dodatkowe stylizacje */
+  color: white; /* Kolor tekstu na przycisku */
+  border: 1px solid red; /* Opcjonalnie, styl obramowania przycisku */
 }

@@ -4,101 +4,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joke Central</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
   </head>
   <body>
     <header>
       <!-- Navigation bar -->
-      <nav id="navlist">
-        <ul>
-          <li class="nav-item"><a href="./index_registered.html">Home</a></li>
-          <li class="nav-item"><a href="./dodaj_zart.html">Add Joke</a></li>
-          <li class="nav-item"><a href="./moje_konto.html">My Account</a></li>
-          <li class="nav-item"><a href="./index.html">Wyloguj</a></li><!-- Dodać wylogowywanie -->
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Joke Central</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index_registered.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Top jokes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./dodaj_zart.html">Add Joke</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./moje_konto.html">My Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Log out</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
     <main>
-      <h1 class=" class="display-4 text-center mb-4"">Welcome to Joke Central!</h1>
+
+      <script>
+        fetch('/getUserName')
+            .then(response => response.json())
+            .then(data => {
+              document.getElementById('welcomeMessage').textContent = "Welcome, " + data.username + "!";
+            })
+          .catch(error => console.error('Błąd podczas pobierania imienia:', error));
+      </script>
+
+      <h1 class="display-4 text-center mb-4" id="welcomeMessage"></h1>
       <p>Explore, laugh, and share your jokes with the world.</p>
       <!-- Display jokes from jokes.json -->
       <div id="jokesList">
         <div class="jokes-container" id="jokesContainer">
-            
-            <div class="joke">
-                <!-- Pasek ze zdjęciem profilowym i nazwą użytkownika -->
-                <div class="leftJoke"> 
-                  <label>
-                    <img src="ProfilePic.png" alt="pic" class="picture">
-                    Username
-                  </label>
-                </div>
-    
-                <!-- Pole z treścią żartu -->
-                <div class="mainJoke"> 
-                  <p>Treść żartu</p>
-                </div>
-
-                <!-- Zgłaszanie żartu -->
-                <div class="rightJoke">
-    
-                <!-- Pasek z upvote'ami, komentarzami i dodaniem do ulubionych (dla zalogowanych) -->
-                    <button class="action-button" onclick="openReportModal()">...</button> <!-- Metoda z js -->
-                        <div id="ReportModal" class="report-modal">
-                            <button class="report-button" onclick="reportJoke()">Report joke</button> <!-- Metoda z js -->
-                </div> 
-                <div class="bottomJoke">
-                    <span class="up-button" onclick="upvote()">&uarr;</span>
-                    <span class="down-button" onclick="downvote()">&darr;</span>
-                  <p class="NumberOfUpvotes">12</p>
-    
-                  <button class="comment-button" onclick="openCommentModal()">Pokaż komentarze</button> <!-- Metoda z js -->
-                    <!-- Okno z komentarzami -->
-                    <div id="commentModal" class="comment-modal">
-                      <span class="close-button" onclick="closeCommentModal()">&times;</span>
-    
-                      <h4>Komentarze</h4>
-                        <!-- Przykładowy komenatarz -->
-                        <div class="comment">
-                          <div class="leftComment"> 
-                            <label>
-                              <img src="ProfilePic.png" alt="pic" class="picture">
-                              Username
-                            </label>
-                          </div>
-              
-                          <div class="rightComment"> 
-                            <p>Treść komentarza</p>
-                          </div>
-                        </div>
-                      <!-- Treść komentarzy, formularz do dodawania komentarzy -->
-                    </div>
-    
-                    <!-- Tymczasowy css i js, żeby komentarze się jakoś otwierały -->
-                    <style>
-                      .comment-modal {
-                          display: none;
-                              position: absolute;
-                              border: 1px solid #ccc;
-                      }
-                  
-                    </style>
-                    <script>
-                      // Funkcja otwierająca okno z komentarzami
-                      function openCommentModal() {
-                          document.getElementById('commentModal').style.display = 'block';
-                      }
-                  
-                      // Funkcja zamykająca okno z komentarzami
-                      function closeCommentModal() {
-                          document.getElementById('commentModal').style.display = 'none';
-                      }
-                   </script>
-    
-                  <p class="NumberOfComments">1</p>
-                </div>
-              </div>
-
+        
         </div>
       </div>
     </main>

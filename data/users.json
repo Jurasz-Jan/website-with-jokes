@@ -1,0 +1,62 @@
+[
+  {
+    "fullname": "123",
+    "email": "123@gmail.com",
+    "username": "123",
+    "password": "$2b$10$yHrXR81RcX3tBCv9dq5kp.vjnGNw/pQdplKnh/tlZ4yb2CxQFHuGm",
+    "liked_jokes": [],
+    "disliked_jokes": []
+  },
+  {
+    "fullname": "oskar",
+    "email": "email@o2.pl",
+    "username": "oskar123",
+    "password": "$2b$10$M5xTr18ffyfLi33sukVEVuIP4wlsXJQBJRM2XskfREjSZclw8iEcS",
+    "liked_jokes": [],
+    "disliked_jokes": []
+  },
+  {
+    "fullname": "sdfdgd",
+    "email": "sdfsdgsd@o2.pl",
+    "username": "oskar",
+    "password": "$2b$10$hBhxLtKEj.nwUDpxh6N9Xu0RIvngc69.naLPVXUlbmN.XrFMUNYpq",
+    "liked_jokes": [],
+    "disliked_jokes": []
+  },
+  {
+    "fullname": "123",
+    "email": "312@o.pl",
+    "username": "aaaa",
+    "password": "$2b$10$nYavt9m69pvfSFE2z7rNTO/5XMgbfAi.AJkDy1B5BIeRZfVzwW63C",
+    "liked_jokes": [],
+    "disliked_jokes": []
+  },
+  {
+    "fullname": "Oskar Zwolak",
+    "email": "muuciek.new@gmail.com",
+    "username": "123",
+    "password": "$2b$10$KNLj75OJdE3n99DUJ1izlOxsXucWQ/8I/cxNmN6tyV6OWKgWShRny",
+    "liked_jokes": [],
+    "disliked_jokes": []
+  },
+  {
+    "fullname": "Oskar Zwolak",
+    "email": "muuciek.new@gmail.comaaa",
+    "username": "555",
+    "password": "$2b$10$AM51NvS7f2gRRWNQRR1EFeN9.1Sslh3JKNGi9MZPCtgInikFevNUq",
+    "liked_jokes": [
+      10,
+      3,
+      9
+    ],
+    "disliked_jokes": [
+      5,
+      1,
+      2,
+      4,
+      6,
+      7,
+      8
+    ]
+  }
+]

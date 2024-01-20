@@ -18,28 +18,25 @@
     <header>
       <!-- Navigation bar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="./index.htmlgit">Joke Central</a>
+        <a class="navbar-brand" href="./index.html">Joke Central</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="./index.html">Home</a>
-            <a class="nav-item nav-link" href="./index.html">Top jokes</a>
+            <a class="nav-item nav-link" href="./index.html">Home</a>
+            <a class="nav-item nav-link" href="./top_jokes.html">Top jokes</a>
+            <a class="nav-item nav-link active" href="./login.html">Login</a>
             <a class="nav-item nav-link" href="./register.html">Register</a>
-            
-              
-           
           </div>
         </div>
       </nav>
-      
     </header>
 
     <main>
       <!-- Login form -->
       <h1>Login to Joke Central</h1>
-      <form id="loginForm">
+      <form id="loginForm" action="/login" method="post" class="mainForm">
         <div class="form-group">
           <label for="username">Username</label>
           <input type="text" class="form-control" id="username" name="username" required>

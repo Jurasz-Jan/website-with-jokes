@@ -23,23 +23,16 @@
     <header>
       <!-- Navigation bar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Joke Central</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a class="navbar-brand" href="./index.html">Joke Central</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="./index.html">Home</a>
-            <a class="nav-item nav-link" href="./index.html">Top jokes</a>
+            <a class="nav-item nav-link" href="./index.html">Home</a>
+            <a class="nav-item nav-link" href="./top_jokes.html">Top jokes</a>
             <a class="nav-item nav-link" href="./login.html">Login</a>
+            <a class="nav-item nav-link active" href="./register.html">Register</a>
           </div>
         </div>
       </nav>
@@ -49,7 +42,7 @@
       <!-- Registration form -->
       <h1>Register at Joke Central</h1>
 
-      <form id="registerForm">
+      <form id="registerForm" action="/register" method="post" class="mainForm">
         <div class="form-group">
           <label for="fullname">Full Name</label>
           <input type="text" id="fullname" name="fullname" required />
@@ -76,7 +69,7 @@
           <input type="password" id="password" name="password" required />
         </div>
         <div>
-          <button type="button" class="btn btn-primary">Register</button>
+          <button type="submit" class="btn btn-primary">Register</button>
         </div>
       </form>
 

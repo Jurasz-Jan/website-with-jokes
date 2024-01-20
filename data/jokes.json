@@ -1,20 +1,263 @@
 [
   {
     "id": 1,
-    "joke": "Why don't skeletons fight each other?",
-    "answer": "They don't have the guts.",
-    "likes": 2
+    "joke": "Why don't skeletons fight each other? They don't have the guts.",
+    "author": "Autor 1",
+    "comments": [
+      {
+        "author": "Commenter 1",
+        "text": "chujowy zart"
+      },
+      {
+        "author": "Commenter 2",
+        "text": "nie prawda"
+      },
+      {
+        "author": "Commenter 2",
+        "text": "XDDDD"
+      },
+      {
+        "author": "555",
+        "text": "asd"
+      },
+      {
+        "author": "555",
+        "text": "jakis zart glupi"
+      },
+      {
+        "author": "555",
+        "text": "ASFDSDFBFGHST"
+      },
+      {
+        "author": "555",
+        "text": "12eqw"
+      },
+      {
+        "author": "555",
+        "text": "aaaaaaaaaaaaaa"
+      },
+      {
+        "author": "555",
+        "text": "asdasd"
+      },
+      {
+        "author": "555",
+        "text": "asdas"
+      },
+      {
+        "author": "555",
+        "text": "sdfd"
+      },
+      {
+        "author": "555",
+        "text": "12312"
+      },
+      {
+        "author": "555",
+        "text": "2413"
+      },
+      {
+        "author": "555",
+        "text": "123"
+      },
+      {
+        "author": "555",
+        "text": "3444"
+      },
+      {
+        "author": "555",
+        "text": "aaaaa"
+      },
+      {
+        "author": "555",
+        "text": "123123"
+      },
+      {
+        "author": "555",
+        "text": "sdfs"
+      },
+      {
+        "author": "555",
+        "text": "123"
+      },
+      {
+        "author": "555",
+        "text": "nowy kom ?"
+      },
+      {
+        "author": "555",
+        "text": "asdasda"
+      },
+      {
+        "author": "555",
+        "text": "asdasd"
+      },
+      {
+        "author": "555",
+        "text": "dziala finalnie musi"
+      },
+      {
+        "author": "555",
+        "text": "123"
+      },
+      {
+        "author": "555",
+        "text": "234"
+      },
+      {
+        "author": "555",
+        "text": "asd"
+      },
+      {
+        "author": "555",
+        "text": "asdasdasdasd"
+      },
+      {
+        "author": "555",
+        "text": "chhuj"
+      },
+      {
+        "author": "555",
+        "text": "jsetem geje,\nm\n"
+      }
+    ],
+    "likes": 33,
+    "dislikes": 13
   },
   {
     "id": 2,
-    "joke": "What do you call a bear with no teeth?",
-    "answer": "A gummy bear.",
-    "likes": 2
+    "joke": "What do you call a bear with no teeth? A gummy bear.",
+    "author": "Autor 2",
+    "comments": [
+      {
+        "author": "555",
+        "text": "asd"
+      },
+      {
+        "author": "555",
+        "text": "d"
+      },
+      {
+        "author": "555",
+        "text": "grr"
+      },
+      {
+        "author": "555",
+        "text": "asd"
+      }
+    ],
+    "likes": 6,
+    "dislikes": 8
   },
   {
     "id": 3,
-    "joke": "Why did the scarecrow win an award?",
-    "answer": "Because he was outstanding in his field.",
-    "likes": 23
+    "joke": "Why did the scarecrow win an award? Because he was outstanding in his field.",
+    "author": "Autor 3",
+    "comments": [
+      {
+        "author": "555",
+        "text": "asd"
+      }
+    ],
+    "likes": 28,
+    "dislikes": 4
+  },
+  {
+    "id": 4,
+    "joke": "234",
+    "author": "555",
+    "comments": [],
+    "likes": 1,
+    "dislikes": 4
+  },
+  {
+    "id": 5,
+    "joke": "fgnhgdn",
+    "author": "555",
+    "comments": [],
+    "likes": 1,
+    "dislikes": 4
+  },
+  {
+    "id": 6,
+    "joke": "3eragr",
+    "author": "555",
+    "comments": [],
+    "likes": 1,
+    "dislikes": 3
+  },
+  {
+    "id": 7,
+    "joke": "chuj",
+    "author": "555",
+    "comments": [],
+    "likes": 0,
+    "dislikes": 3
+  },
+  {
+    "id": 8,
+    "joke": "dfsdf",
+    "author": "555",
+    "comments": [],
+    "likes": 0,
+    "dislikes": 1
+  },
+  {
+    "id": 9,
+    "joke": "5555234234",
+    "author": "555",
+    "comments": [],
+    "likes": 1,
+    "dislikes": 0
+  },
+  {
+    "id": 10,
+    "joke": "dlaczego delfin przeszedl przez gowno",
+    "author": "555",
+    "comments": [
+      {
+        "author": "555",
+        "text": "asd"
+      }
+    ],
+    "likes": 1,
+    "dislikes": 0
+  },
+  {
+    "id": 11,
+    "joke": "jebac",
+    "author": "555",
+    "comments": [
+      {
+        "author": "555",
+        "text": "pedalow\n"
+      }
+    ],
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "id": 12,
+    "joke": "dfdbd",
+    "author": "555",
+    "comments": [],
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "id": 13,
+    "joke": "ostatni test kurwa",
+    "author": "555",
+    "comments": [],
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "id": 14,
+    "joke": "sdgfd bjsdhbjjjjjjjjjjjjjj",
+    "author": "555",
+    "comments": [],
+    "likes": 0,
+    "dislikes": 0
   }
 ]

@@ -14,27 +14,46 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css"/>
   </head>
   <body>
     <header>
-      <object
-        type="text/html"
-        data="../particles/navbar.html"
-        class="navbar"
-      ></object>
+      <!-- Navigation bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Joke Central</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index_registered.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Top jokes</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./dodaj_zart.html">Add Joke</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./moje_konto.html">My Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Log out</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
       <h1>Add a Joke</h1>
-      <form id="addJokeForm">
+      <form id="addJokeForm" action="/add_joke" method="post" class="mainForm">
         <div>
-          <label for="jokeText">Joke Text</label>
-          <textarea id="jokeText" name="jokeText" rows="4" required></textarea>
-        </div>
-        <div>
-          <label for="author">Author</label>
-          <input type="text" id="author" name="author" required />
+          <label for="jokeText">Joke</label>
+          <textarea id="jokeText" name="jokeText" rows="6" required></textarea>
         </div>
         <div>
           <input type="submit" value="Submit Joke" />
