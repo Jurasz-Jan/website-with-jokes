@@ -65,7 +65,7 @@ app.post('/register', (req, res) => {
     }
 
     const hashedPassword = bcrypt.hashSync(password, 10);
-    users.push({ fullname, email, username, password: hashedPassword, liked_jokes: [] }); //dodaj usera
+    users.push({ fullname, email, username, password: hashedPassword, liked_jokes: [], disliked_jokes: [] }); //dodaj usera
     fs.writeFileSync(usersFilePath, JSON.stringify(users, null, 2), 'utf8'); //zapisz dane do pliku
 
     res.sendFile(path.join(viewsPath, 'login.html'));

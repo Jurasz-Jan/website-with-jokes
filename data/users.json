@@ -57,5 +57,20 @@
       3,
       1
     ]
+  },
+  {
+    "fullname": "nowy",
+    "email": "chuj@gmail.com",
+    "username": "444",
+    "password": "$2b$10$Nf3tGNz9Q0fZX.nr6TpjweGD3hoFO3u3xr4SGgTpcFNLdCt/.udwu",
+    "liked_jokes": []
+  },
+  {
+    "fullname": "ewfsfdsfd",
+    "email": "chuja@gg.co",
+    "username": "999",
+    "password": "$2b$10$IaCqZkwnTNkabk2Me23.aOqa9HoOOyZxMx9O5b7LQGY.ZE71y9lXm",
+    "liked_jokes": [],
+    "disliked_jokes": []
   }
 ]
