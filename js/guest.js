@@ -41,7 +41,7 @@ function toggleComments(event) {
         hiddenElement.style.display = 'block'; 
     }
 }
-  var topJokes = true;
+
 document.addEventListener('DOMContentLoaded', function () {
     fetch('../data/jokes.json')
       .then((response) => response.json())
@@ -131,8 +131,13 @@ document.addEventListener('DOMContentLoaded', function () {
                   </div>`
             const commentContainer = document.createElement('div')
             commentContainer.classList.add('comment-container')
-            commentContainer.id = "commentContainer" + joke.id;
-            commentContainer.innerHTML = "<h4 style=\"padding-left: 1%\">Komentarze</h4>"
+            commentContainer.id = "commentContainer" + joke.id; 
+
+            if(joke.comments.length == 0)
+              commentContainer.innerHTML = "<h4 style=\"padding-left: 1%\">Brak komentarzy</h4>"
+            else
+              commentContainer.innerHTML = "<h4 style=\"padding-left: 1%\">Komentarze</h4>"
+
             joke.comments.forEach((comment) => {
               // Dodaj każdy komentarz do kontenera
               const commentElement = document.createElement('div');
