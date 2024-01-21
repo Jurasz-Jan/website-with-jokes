@@ -38,6 +38,17 @@ document.addEventListener('DOMContentLoaded', function () {
   fetch('../data/jokes.json')
     .then((response) => response.json())
     .then((data) => {
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has('topjokes')) {
+        data.sort((a, b) => b.likes - a.likes);
+
+        const topJokesNav = document.getElementById("topJokesNav");
+        const homeNav = document.getElementById("homeNav");
+        topJokesNav.classList.value = "nav-item active";
+        homeNav.classList.value = "nav-item";   
+      } else {
+        console.log('Brak parametru "topjokes" w URL.');
+      }
       getLikedAndDislikedJokesList().then((likes_dislikes)=>{
               
       // Create card for each joke
@@ -71,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     </label>
                   </div>
                   <div class="plus-minus-container"> 
-                  <div class="row align-items-center">
+                 
                     <div class="col-auto">
                       <span class="up-button">
                         <button type="button" class="btn ${likeButtonClassName}" id="upvote${joke.id}">
@@ -97,7 +108,10 @@ document.addEventListener('DOMContentLoaded', function () {
                         </button>
                       </span>
                     </div>
-                  </div>
+
+                    
+
+                  
                   </div>
                 </div>
                 
@@ -110,17 +124,32 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="rightJoke">
     
                 <!-- Pasek z upvote'ami, komentarzami i dodaniem do ulubionych (dla zalogowanych) -->
-                    
-                <div id="ReportModal" class="report-modal">
-                  <button class="report-button" onclick="reportJoke()">Report joke</button> <!-- Metoda z js -->
-                </div>
+                  
                 
                 <div class="bottomJoke">
+
+                  <div class="col-auto">
+                    <span class="down-button">
+                      <button type="button" id="showCommentsButton${joke.id}" class="details-button btn btn-primary" onclick="toggleComments(this)">
+                          Comments
+                      </button>
+                    </span>
+                  </div>
+
+                  <div class="col-auto">
+                    <span class="down-button">
+                      <button type="button" class="btn btn-danger" onclick=showReportPopup()>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+                          <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5m.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg>
+                          Report
+                      </button>
+                    </span>
+                  </div>
+
                     
                     <!-- Dodac liczbe plusow -->
     
-                  <button class="comment-button" id="showCommentsButton${joke.id}" onclick="toggleComments(this)">Comments</button> <!-- Metoda z js -->
-                    
                 </div>
               </div>`
         const commentContainer = document.createElement('div')
@@ -335,6 +364,19 @@ function showAddedComment(event, jokeId)
   }
 }
 
+function logout() {
+  fetch('/logout', {
+      method: 'POST',
+  })
+  .then(response => {
+      if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+  })
+  .catch(error => console.error('Error:', error));
+}
+
+
 function toggleComments(event) {
   var obiekt = event.id;
   var indexNapisu = obiekt.indexOf('showCommentsButton');
@@ -359,7 +401,19 @@ function toggleComments(event) {
       }
 }
 
+function showReportPopup() {
+  document.getElementById('popup').style.display = 'block';
+}
 
+// Funkcja do ukrycia popupa
+function hideReportPopup() {
+  document.getElementById('popup').style.display = 'none';
+}
+// Dodaj obsługę kliknięcia do linku
+document.getElementById('showPopup').addEventListener('click', function (e) {
+  e.preventDefault();
+  showPopup();
+});
 
 
 

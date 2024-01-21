@@ -95,29 +95,53 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="../js/main.js"></script>
     <script>
       //Javascript code to handle changeEmailForm
       document
         .getElementById('changeEmailForm')
         .addEventListener('submit', function (e) {
           e.preventDefault()
-          document.getElementById('emailMessage').textContent =
-            'Email changed successfully!'
-          document.getElementById('emailMessage').style.display = 'block'
+          
+          const form = e.target;
+          const formData = new FormData(form);
+          
+          fetch('/changeEmail', {
+            method: 'POST',
+            body: formData
+          })
+          .then(response => response.text())
+          .then(message => {
+            document.getElementById('emailMessage').textContent = message;
+            document.getElementById('emailMessage').style.display = 'block';
+            form.reset();
+          })
+          .catch(error => console.error('Error:', error));
         })
 
-      document
+        document
         .getElementById('changePasswordForm')
         .addEventListener('submit', function (e) {
           e.preventDefault()
-          // Tutaj kod do obsługi zmiany hasła
-          // Pobranie wartości z pól input z id="currentPassword" i id="newPassword": document.getElementById('currentPassword').value, document.getElementById('newPassword').value
-          // "Wysłanie żądania do serwera" w celu zmiany hasła
-          // Wyświetlenie komunikatu o sukcesie lub błędzie
-          document.getElementById('passwordMessage').textContent =
-            'Password changed successfully!'
-          document.getElementById('passwordMessage').style.display = 'block'
+          debugger;
+          const form = e.target;
+          const currentPassword = form.currentPassword.value;
+          const newPassword = form.newPassword.value;
+
+          fetch('/changePassword', {
+            method: 'POST',
+            headers: {
+            'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({currentPassword, newPassword})
+            })
+          .then(response => response.text())
+          .then(message => {
+            document.getElementById('passwordMessage').textContent = message;
+            document.getElementById('passwordMessage').style.display = 'block';
+            if(message == 'Password changed successfully!')
+              form.reset();
+          })
+          .catch(error => console.error('Error:', error));
         })
     </script>
   </body>

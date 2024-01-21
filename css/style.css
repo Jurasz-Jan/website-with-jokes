@@ -89,7 +89,6 @@ main {
 
 .rightJoke {
   align-self: flex-end;
-  padding-right: 1%;
 }
 
 /* Bottom part of the joke, including interaction buttons */
@@ -231,6 +230,7 @@ textarea:focus {
 
 /* Popup Styles */
 .popup {
+  display: none;
   text-align: center;
   font-size: 20px;
   position: fixed;
@@ -276,8 +276,6 @@ textarea:focus {
 
 .plus-minus-container {
   display: flex;
-  padding-right:1%;
-  margin-right: 1%;
 }
 
 .plus-minus-button {

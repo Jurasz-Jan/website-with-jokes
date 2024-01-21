@@ -95,6 +95,17 @@ app.post('/login', (req, res) => {
     }
 });
 
+app.post('/logout', (req, res) => {
+    console.log('logged out');
+    req.session.destroy((err) => {
+        if (err) {
+            console.error('Błąd podczas zamykania sesji:', err);
+        } else {
+            res.redirect('/login'); // Przekierowanie po wylogowaniu
+        }
+    });
+});
+
 app.post('/add_joke', (req, res) => {
     const { jokeText } = req.body;
 
@@ -145,6 +156,50 @@ app.get('/likes_dislikes_list', (req, res) => {
 
     res.end();
 });
+
+app.post('/changeEmail', (req, res) => {
+    const { newEmail } = req.body;
+    const username = req.session.user.username;
+    
+    let users = [];
+    try {
+        const usersData = fs.readFileSync(usersFilePath, 'utf8');
+        users = JSON.parse(usersData);
+    } catch (error) {
+        console.error('Błąd odczytu danych użytkowników:', error.message);
+    }
+    
+    const user = users.find(user => user.username === username);
+    user.email = newEmail;
+
+    fs.writeFileSync(usersFilePath, JSON.stringify(users, null, 2), 'utf8');
+    res.send('Email changed successfully!');
+});
+
+app.post('/changePassword', (req, res) => {
+    const { currentPassword, newPassword } = req.body;
+    const username = req.session.user.username;
+    console.log('hasla: ', req.body);
+    let users = [];
+    try {
+        const usersData = fs.readFileSync(usersFilePath, 'utf8');
+        users = JSON.parse(usersData);
+    } catch (error) {
+        console.error('Błąd odczytu danych użytkowników:', error.message);
+    }
+    
+    const user = users.find((user) => user.username === username);
+    if (user && bcrypt.compareSync(currentPassword, user.password)) {
+        const hashedPassword = bcrypt.hashSync(newPassword, 10);
+        user.password = hashedPassword;
+
+        fs.writeFileSync(usersFilePath, JSON.stringify(users, null, 2), 'utf8');
+        res.send('Password changed successfully!');
+    } else {
+        res.send('Current password is incorrect!');
+    }
+});
+
 
 app.post('/remove_joke_from_liked', (req, res) => {
     const { id } = req.body;

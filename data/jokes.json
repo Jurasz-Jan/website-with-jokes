@@ -146,8 +146,8 @@
         "text": "asd"
       }
     ],
-    "likes": 6,
-    "dislikes": 8
+    "likes": 7,
+    "dislikes": 7
   },
   {
     "id": 3,
@@ -159,24 +159,24 @@
         "text": "asd"
       }
     ],
-    "likes": 28,
-    "dislikes": 4
+    "likes": 27,
+    "dislikes": 5
   },
   {
     "id": 4,
     "joke": "234",
     "author": "555",
     "comments": [],
-    "likes": 1,
-    "dislikes": 4
+    "likes": 2,
+    "dislikes": 3
   },
   {
     "id": 5,
     "joke": "fgnhgdn",
     "author": "555",
     "comments": [],
-    "likes": 1,
-    "dislikes": 4
+    "likes": 2,
+    "dislikes": 3
   },
   {
     "id": 6,
@@ -191,7 +191,7 @@
     "joke": "chuj",
     "author": "555",
     "comments": [],
-    "likes": 0,
+    "likes": 56,
     "dislikes": 3
   },
   {
@@ -199,7 +199,7 @@
     "joke": "dfsdf",
     "author": "555",
     "comments": [],
-    "likes": 0,
+    "likes": 100,
     "dislikes": 1
   },
   {
@@ -207,8 +207,8 @@
     "joke": "5555234234",
     "author": "555",
     "comments": [],
-    "likes": 1,
-    "dislikes": 0
+    "likes": 12,
+    "dislikes": 3
   },
   {
     "id": 10,
@@ -220,7 +220,7 @@
         "text": "asd"
       }
     ],
-    "likes": 1,
+    "likes": 999,
     "dislikes": 0
   },
   {
@@ -233,7 +233,7 @@
         "text": "pedalow\n"
       }
     ],
-    "likes": 0,
+    "likes": 123,
     "dislikes": 0
   },
   {

@@ -41,22 +41,21 @@
   },
   {
     "fullname": "Oskar Zwolak",
-    "email": "muuciek.new@gmail.comaaa",
     "username": "555",
-    "password": "$2b$10$AM51NvS7f2gRRWNQRR1EFeN9.1Sslh3JKNGi9MZPCtgInikFevNUq",
+    "password": "$2b$10$jNFsmIxa5gLm6QXVWPXHi.2W7NwrBNOWPQfyJp9osnAre0xLFJI1K",
     "liked_jokes": [
       10,
-      3,
-      9
-    ],
-    "disliked_jokes": [
-      5,
-      1,
+      9,
       2,
       4,
+      5
+    ],
+    "disliked_jokes": [
       6,
       7,
-      8
+      8,
+      3,
+      1
     ]
   }
 ]
