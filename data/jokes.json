@@ -1,33 +1,34 @@
 [
   {
-    "id": 1,
-    "joke": "Why don't skeletons fight each other? They don't have the guts.",
-    "author": "HopelessAdventurer213",
-    "comments": [
-      {
-        "author": "Commenter 1",
-        "text": "Wspaniały żart"
-      },
-      {
-        "author": "Commenter 2",
-        "text": "Wyśmienite"
-      },
-      {
-        "author": "Commenter 2",
-        "text": "XDDDD"
-      },
-      {
-        "author": "555",
-        "text": "Nieśmieszne."
-      },
-      {
-        "author": "555",
-        "text": "Nie zrozumiałem"
-      }
-    ],
-    "likes": 33,
-    "dislikes": 13
-  },
+    {
+      "id": 1,
+      "joke": "My landlord texted saying we need to meet up and talk about how high my heating bill is. I replied back: 'Sure, my door is always open.'",
+      "author": "HopelessAdventurer213",
+      "comments": [
+        {
+          "author": "DarkerThanDark1",
+          "text": "Brilliant response to the landlord."
+        },
+        {
+          "author": "CommenterRenter2",
+          "text": "Clever play on words with the 'door always open' reply."
+        },
+        {
+          "author": "WeTheBestMusic3",
+          "text": "That's hilarious! Great way to handle the situation."
+        },
+        {
+          "author": "Necromancer",
+          "text": "Not funny. I don't get it."
+        },
+        {
+          "author": "LocustServette12",
+          "text": "Didn't understand. Maybe I'm missing something."
+        }
+      ],
+      "likes": 33,
+      "dislikes": 13
+    },    
   {
     "id": 2,
     "joke": "What do you call a bear with no teeth? A gummy bear.",
