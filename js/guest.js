@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
             topJokesNav.classList.value = "nav-item active";
             homeNav.classList.value = "nav-item";   
         } else {
-            console.log('Brak parametru "topjokes" w URL.');
+          data.sort((a, b) => b.id - a.id);
         }
 
         data.forEach((joke) => {
@@ -156,17 +156,10 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 function showReportPopup() {
-    document.getElementById('popup').style.display = 'block';
-    document.getElementById('overlay').style.display = 'block';
+  document.getElementById('popup').style.display = 'block';
 }
 
 // Funkcja do ukrycia popupa
 function hideReportPopup() {
-    document.getElementById('popup').style.display = 'none';
-    document.getElementById('overlay').style.display = 'none';
+  document.getElementById('popup').style.display = 'none';
 }
-// Dodaj obsługę kliknięcia do linku
-document.getElementById('showPopup').addEventListener('click', function (e) {
-    e.preventDefault();
-    showPopup();
-});

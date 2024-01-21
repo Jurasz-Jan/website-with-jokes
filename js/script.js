@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
         topJokesNav.classList.value = "nav-item active";
         homeNav.classList.value = "nav-item";   
       } else {
-        console.log('Brak parametru "topjokes" w URL.');
+        data.sort((a, b) => b.id - a.id);
       }
       getLikedAndDislikedJokesList().then((likes_dislikes)=>{
               
