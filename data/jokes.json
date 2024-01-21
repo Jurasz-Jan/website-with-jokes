@@ -1,34 +1,33 @@
 [
   {
-    {
-      "id": 1,
-      "joke": "My landlord texted saying we need to meet up and talk about how high my heating bill is. I replied back: 'Sure, my door is always open.'",
-      "author": "HopelessAdventurer213",
-      "comments": [
-        {
-          "author": "DarkerThanDark1",
-          "text": "Brilliant response to the landlord."
-        },
-        {
-          "author": "CommenterRenter2",
-          "text": "Clever play on words with the 'door always open' reply."
-        },
-        {
-          "author": "WeTheBestMusic3",
-          "text": "That's hilarious! Great way to handle the situation."
-        },
-        {
-          "author": "Necromancer",
-          "text": "Not funny. I don't get it."
-        },
-        {
-          "author": "LocustServette12",
-          "text": "Didn't understand. Maybe I'm missing something."
-        }
-      ],
-      "likes": 33,
-      "dislikes": 13
-    },    
+    "id": 1,
+    "joke": "My landlord texted saying we need to meet up and talk about how high my heating bill is. I replied back: 'Sure, my door is always open.'",
+    "author": "HopelessAdventurer213",
+    "comments": [
+      {
+        "author": "DarkerThanDark1",
+        "text": "Brilliant response to the landlord."
+      },
+      {
+        "author": "CommenterRenter2",
+        "text": "Clever play on words with the 'door always open' reply."
+      },
+      {
+        "author": "WeTheBestMusic3",
+        "text": "That's hilarious! Great way to handle the situation."
+      },
+      {
+        "author": "Necromancer",
+        "text": "Not funny. I don't get it."
+      },
+      {
+        "author": "LocustServette12",
+        "text": "Didn't understand. Maybe I'm missing something."
+      }
+    ],
+    "likes": 33,
+    "dislikes": 13
+  },
   {
     "id": 2,
     "joke": "What do you call a bear with no teeth? A gummy bear.",
@@ -53,7 +52,7 @@
     ],
     "likes": 7,
     "dislikes": 7
-  },  
+  },
   {
     "id": 3,
     "joke": "Why did the scarecrow win an award? Because he was outstanding in his field.",
@@ -103,7 +102,7 @@
     ],
     "likes": 2,
     "dislikes": 3
-  },  
+  },
   {
     "id": 5,
     "joke": "Why don't scientists trust atoms? Because they make up everything.",
@@ -128,7 +127,7 @@
     ],
     "likes": 2,
     "dislikes": 3
-  },  
+  },
   {
     "id": 6,
     "joke": "Why did the bicycle fall over? Because it was two-tired.",
@@ -174,7 +173,7 @@
     ],
     "likes": 56,
     "dislikes": 3
-  },  
+  },
   {
     "id": 8,
     "joke": "Why did the coffee file a police report? It got mugged!",
@@ -200,7 +199,7 @@
     "likes": 100,
     "dislikes": 1
   },
-  
+
   {
     "id": 10,
     "joke": "Why did the spaghetti refuse to go to the party? Because it was impasta!",
@@ -238,7 +237,7 @@
     ],
     "likes": 123,
     "dislikes": 0
-  },  
+  },
   {
     "id": 12,
     "joke": "Why did the computer catch a cold? Because it left its Windows open!",
@@ -284,7 +283,7 @@
     ],
     "likes": 0,
     "dislikes": 0
-  },  
+  },
   {
     "id": 14,
     "joke": "What genre are national anthems? Country.",
@@ -305,7 +304,7 @@
     ],
     "likes": 1,
     "dislikes": 0
-  },  
+  },
   {
     "id": 15,
     "joke": "Why does Dracula always bite people in the neck? Because he's a neck romancer.",
@@ -327,5 +326,4 @@
     "likes": 1,
     "dislikes": 0
   }
-  
 ]
