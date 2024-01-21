@@ -2,15 +2,15 @@
   {
     "id": 1,
     "joke": "Why don't skeletons fight each other? They don't have the guts.",
-    "author": "Autor 1",
+    "author": "HopelessAdventurer213",
     "comments": [
       {
         "author": "Commenter 1",
-        "text": "chujowy zart"
+        "text": "Wspaniały żart"
       },
       {
         "author": "Commenter 2",
-        "text": "nie prawda"
+        "text": "Wyśmienite"
       },
       {
         "author": "Commenter 2",
@@ -18,107 +18,11 @@
       },
       {
         "author": "555",
-        "text": "asd"
+        "text": "Nieśmieszne."
       },
       {
         "author": "555",
-        "text": "jakis zart glupi"
-      },
-      {
-        "author": "555",
-        "text": "ASFDSDFBFGHST"
-      },
-      {
-        "author": "555",
-        "text": "12eqw"
-      },
-      {
-        "author": "555",
-        "text": "aaaaaaaaaaaaaa"
-      },
-      {
-        "author": "555",
-        "text": "asdasd"
-      },
-      {
-        "author": "555",
-        "text": "asdas"
-      },
-      {
-        "author": "555",
-        "text": "sdfd"
-      },
-      {
-        "author": "555",
-        "text": "12312"
-      },
-      {
-        "author": "555",
-        "text": "2413"
-      },
-      {
-        "author": "555",
-        "text": "123"
-      },
-      {
-        "author": "555",
-        "text": "3444"
-      },
-      {
-        "author": "555",
-        "text": "aaaaa"
-      },
-      {
-        "author": "555",
-        "text": "123123"
-      },
-      {
-        "author": "555",
-        "text": "sdfs"
-      },
-      {
-        "author": "555",
-        "text": "123"
-      },
-      {
-        "author": "555",
-        "text": "nowy kom ?"
-      },
-      {
-        "author": "555",
-        "text": "asdasda"
-      },
-      {
-        "author": "555",
-        "text": "asdasd"
-      },
-      {
-        "author": "555",
-        "text": "dziala finalnie musi"
-      },
-      {
-        "author": "555",
-        "text": "123"
-      },
-      {
-        "author": "555",
-        "text": "234"
-      },
-      {
-        "author": "555",
-        "text": "asd"
-      },
-      {
-        "author": "555",
-        "text": "asdasdasdasd"
-      },
-      {
-        "author": "555",
-        "text": "chhuj"
-      },
-      {
-        "author": "555",
-        "text": "jsetem geje,\nm\n"
+        "text": "Nie zrozumiałem"
       }
     ],
     "likes": 33,
@@ -127,36 +31,48 @@
   {
     "id": 2,
     "joke": "What do you call a bear with no teeth? A gummy bear.",
-    "author": "Autor 2",
+    "author": "Kanikuly",
     "comments": [
       {
-        "author": "555",
-        "text": "asd"
+        "author": "AliceInWonderland",
+        "text": "Haha, that's a classic! Made me smile."
       },
       {
-        "author": "555",
-        "text": "d"
+        "author": "Bob123",
+        "text": "Simple but funny. Good one!"
       },
       {
-        "author": "555",
-        "text": "grr"
+        "author": "Charlie the Wallflower",
+        "text": "I can imagine the bear's struggle with gummy snacks. Nice joke!"
       },
       {
-        "author": "555",
-        "text": "asd"
+        "author": "David&Goliath",
+        "text": "A bear with no teeth, got me chuckling. Thanks for sharing!"
       }
     ],
     "likes": 7,
     "dislikes": 7
-  },
+  },  
   {
     "id": 3,
     "joke": "Why did the scarecrow win an award? Because he was outstanding in his field.",
-    "author": "Autor 3",
+    "author": "Sauron21",
     "comments": [
       {
-        "author": "555",
-        "text": "asd"
+        "author": "Jenny87",
+        "text": "Haha, this one got me! Reminds me of my grandpa's cornfield jokes. Good times!"
+      },
+      {
+        "author": "ChrisLaughs",
+        "text": "Nice play on words! I can imagine the judges appreciating a good pun. Well done!"
+      },
+      {
+        "author": "NatureLover22",
+        "text": "As someone who spends a lot of time outdoors, I appreciate a good field joke. Clever and amusing!"
+      },
+      {
+        "author": "HumorFanatic",
+        "text": "This is the kind of joke I'd share with my friends. Simple, yet effective. Thumbs up!"
       }
     ],
     "likes": 27,
@@ -164,100 +80,251 @@
   },
   {
     "id": 4,
-    "joke": "234",
-    "author": "555",
-    "comments": [],
+    "joke": "Why did the chicken cross the road? To get to the other side.",
+    "author": "GothamNeedsMe123",
+    "comments": [
+      {
+        "author": "ComedyEnthusiast",
+        "text": "Classic! This one never gets old. Simple, yet timeless humor."
+      },
+      {
+        "author": "LaughOutLoud123",
+        "text": "Haha, I remember hearing this as a kid. It's like the OG of jokes. Love it!"
+      },
+      {
+        "author": "JokeMaster",
+        "text": "Ah, the chicken-crossing-the-road joke, a true legend in the world of humor. Always a crowd-pleaser!"
+      },
+      {
+        "author": "FunnyBoneTickler",
+        "text": "I've heard countless jokes, but this one remains a classic. It's the kind of joke that brings a smile every time!"
+      }
+    ],
     "likes": 2,
     "dislikes": 3
-  },
+  },  
   {
     "id": 5,
-    "joke": "fgnhgdn",
-    "author": "555",
-    "comments": [],
+    "joke": "Why don't scientists trust atoms? Because they make up everything.",
+    "author": "TroyAndAbedInTheMorning",
+    "comments": [
+      {
+        "author": "ScienceGeek22",
+        "text": "Ah, the classic atom joke! It's like the cornerstone of science humor. Love it!"
+      },
+      {
+        "author": "JokeAficionado",
+        "text": "One of my all-time favorites! Science jokes always have that extra 'element' of wit. Great choice!"
+      },
+      {
+        "author": "ChemistryChuckles",
+        "text": "Brilliant play on words! I can't help but laugh every time I hear this joke. Science humor at its best!"
+      },
+      {
+        "author": "WittyMind",
+        "text": "Haha, as a science enthusiast, this joke is right up my alley. It's so clever and always brings a smile!"
+      }
+    ],
     "likes": 2,
     "dislikes": 3
-  },
+  },  
   {
     "id": 6,
-    "joke": "3eragr",
-    "author": "555",
-    "comments": [],
-    "likes": 1,
+    "joke": "Why did the bicycle fall over? Because it was two-tired.",
+    "author": "ComeOnEileen11!!!",
+    "comments": [
+      {
+        "author": "CyclistLaughs",
+        "text": "Haha, the classic bicycle joke! Never gets old. It's like the kickstand of humor – always reliable!"
+      },
+      {
+        "author": "JokeWheelie",
+        "text": "I love a good bike joke! This one really rolls into the realm of punny humor. Nice pick!"
+      },
+      {
+        "author": "GigglesOnGears",
+        "text": "Two-tired, get it? Brilliant play on words! I can imagine the poor bike wobbling. Great joke!"
+      }
+    ],
+    "likes": 112,
     "dislikes": 3
   },
   {
     "id": 7,
-    "joke": "chuj",
-    "author": "555",
-    "comments": [],
+    "joke": "Why did the chicken go to the seance? To talk to the other side!",
+    "author": "PoorOldJohnyRay",
+    "comments": [
+      {
+        "author": "FeatheredLaughs",
+        "text": "Haha, a poultry in the paranormal! This joke cracks me up every time. Clever play on words!"
+      },
+      {
+        "author": "SpiritChick",
+        "text": "Love it! The chicken seeking spiritual advice is both amusing and imaginative. Great choice!"
+      },
+      {
+        "author": "LaughMedium",
+        "text": "Chicken jokes always have a special place in my humor collection. This one is a cluckin' good time!"
+      },
+      {
+        "author": "PoultryPunchline",
+        "text": "The chicken's quest for the other side is hilarious! It's like a feathered comedy adventure. Well done!"
+      }
+    ],
     "likes": 56,
     "dislikes": 3
-  },
+  },  
   {
     "id": 8,
-    "joke": "dfsdf",
-    "author": "555",
-    "comments": [],
+    "joke": "Why did the coffee file a police report? It got mugged!",
+    "author": "OOOOOOO",
+    "comments": [
+      {
+        "author": "CoffeeLover123",
+        "text": "Haha, the coffee joke is a classic! Getting 'mugged,' that's a brew-tally good pun!"
+      },
+      {
+        "author": "JavaJester",
+        "text": "Brilliant play on words! This coffee joke always perks me up. Excellent choice!"
+      },
+      {
+        "author": "EspressoLaughs",
+        "text": "I've heard my fair share of coffee jokes, but this one stands out! It's grounds for a good laugh!"
+      },
+      {
+        "author": "CaffeineComedy",
+        "text": "As a coffee enthusiast, this joke is my cup of humor. It's got that perfect blend of wit and charm!"
+      }
+    ],
     "likes": 100,
     "dislikes": 1
   },
-  {
-    "id": 9,
-    "joke": "5555234234",
-    "author": "555",
-    "comments": [],
-    "likes": 12,
-    "dislikes": 3
-  },
+  
   {
     "id": 10,
-    "joke": "dlaczego delfin przeszedl przez gowno",
-    "author": "555",
+    "joke": "Why did the spaghetti refuse to go to the party? Because it was impasta!",
+    "author": "StairwayToSteven",
     "comments": [
       {
         "author": "555",
-        "text": "asd"
+        "text": "Haha, classic pasta humor! The 'impasta' twist is always a good one. Great joke!"
       }
     ],
     "likes": 999,
-    "dislikes": 0
+    "dislikes": 1
   },
   {
     "id": 11,
-    "joke": "jebac",
-    "author": "555",
+    "joke": "What did the ocean say to the shore? Nothing, it just waved!",
+    "author": "Dancing Dean",
     "comments": [
       {
         "author": "555",
-        "text": "pedalow\n"
+        "text": "Haha, that's a classic! The personification of the ocean waving is so clever. Love it!"
+      },
+      {
+        "author": "HumorSeaside",
+        "text": "Simple and delightful! The ocean 'waving' without saying anything, brilliant! Great choice!"
+      },
+      {
+        "author": "LaughingTide",
+        "text": "The ocean has the best silent waves! This joke always brings a smile. Thanks for sharing the laughter!"
+      },
+      {
+        "author": "JokeByTheShore",
+        "text": "Ah, the charm of ocean jokes! The 'waved' punchline is just perfect. A true seaside classic!"
       }
     ],
     "likes": 123,
     "dislikes": 0
-  },
+  },  
   {
     "id": 12,
-    "joke": "dfdbd",
-    "author": "555",
-    "comments": [],
+    "joke": "Why did the computer catch a cold? Because it left its Windows open!",
+    "author": "TechJester",
+    "comments": [
+      {
+        "author": "555",
+        "text": "Haha, computer humor at its finest! 'Left its Windows open' is a clever play on words. Love it!"
+      },
+      {
+        "author": "ByteLaughs",
+        "text": "Classic tech joke! The personification of the computer getting a cold is both funny and creative. Great choice!"
+      },
+      {
+        "author": "GeekyGiggles",
+        "text": "I'm a sucker for computer puns, and this one is a gem! 'Left its Windows open'—brilliant. Thanks for the laugh!"
+      },
+      {
+        "author": "CodeComedian",
+        "text": "Ah, the hazards of computer life! 'Left its Windows open' is a tech-savvy punchline. Well played!"
+      }
+    ],
     "likes": 0,
     "dislikes": 0
   },
   {
     "id": 13,
-    "joke": "ostatni test kurwa",
+    "joke": "As I handed my Dad his 50th birthday card, he looked at me with tears in his eyes and said, 'You know, one would have been enough.'",
     "author": "555",
-    "comments": [],
+    "comments": [
+      {
+        "author": "BirthdayLaughs",
+        "text": "Haha, your dad has a great sense of humor! 'One would have been enough'—classic dad joke. Love it!"
+      },
+      {
+        "author": "LaughsWithDad",
+        "text": "Dad jokes at their finest! Your dad's response is priceless. Happy 50th to him!"
+      },
+      {
+        "author": "CardWisdom",
+        "text": "Your dad's reaction is gold! That's a birthday card moment to remember. Thanks for sharing the laughter!"
+      }
+    ],
     "likes": 0,
     "dislikes": 0
-  },
+  },  
   {
     "id": 14,
-    "joke": "sdgfd bjsdhbjjjjjjjjjjjjjj",
-    "author": "555",
-    "comments": [],
-    "likes": 0,
+    "joke": "What genre are national anthems? Country.",
+    "author": "PurpleHazeDaze",
+    "comments": [
+      {
+        "author": "JokeHarmony",
+        "text": "Haha, that's a clever play on words! 'Country' anthems indeed. Well played!"
+      },
+      {
+        "author": "LaughsInTune",
+        "text": "Love the musical twist! National anthems in the 'Country' genre—brilliant joke!"
+      },
+      {
+        "author": "AnthemsAndLaughs",
+        "text": "A musical joke with a patriotic twist! 'Country' anthems got me chuckling. Thanks for the humor!"
+      }
+    ],
+    "likes": 1,
+    "dislikes": 0
+  },  
+  {
+    "id": 15,
+    "joke": "Why does Dracula always bite people in the neck? Because he's a neck romancer.",
+    "author": "DracuLaughs",
+    "comments": [
+      {
+        "author": "VampireHumorFan",
+        "text": "Haha, that's fang-tastic! Dracula, the neck romancer, strikes again. Love the vampire humor!"
+      },
+      {
+        "author": "BiteMeLaughs",
+        "text": "Classic Dracula joke! 'Neck romancer'—such a clever play on words. Got me smiling!"
+      },
+      {
+        "author": "LaughsUnderTheMoon",
+        "text": "Dracula's romantic side revealed! 'Neck romancer' is a brilliant twist. Thanks for the laugh!"
+      }
+    ],
+    "likes": 1,
     "dislikes": 0
   }
+  
 ]
