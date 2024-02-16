@@ -1,4 +1,4 @@
-# Forum for jokes
+# Joke forum
 It's a "forum" website where you can post jokes, like/dislike, comment, report etc. jokes posted by various users.
 It allows users to register, login, post etc. 
 
