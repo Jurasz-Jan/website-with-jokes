@@ -1,6 +1,6 @@
 # Joke forum
-It's a "forum" website where you can post jokes, like/dislike, comment, report etc. jokes posted by various users.
-It allows users to register, login, post etc. 
+It's a "forum" website where users can post register, login,  like/dislike jokes, comment, report them etc. 
+
 
 ## How to run it?
 (I have to complete it, because i forgot right now?)
